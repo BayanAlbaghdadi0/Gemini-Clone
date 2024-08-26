@@ -81,7 +81,9 @@ export const Main = () => {
     <div className="main">
       <div className="nav">
         <p>Genini</p>
-        <img src={assets.user_icon} alt="" />
+        <a title="Linkedin" href="https://www.linkedin.com/in/bayan-albaghdadi-320588318/" target="_blank" style={{ cursor: "pointer" }}>
+        <img src={assets.logo_linkedin} alt="" />
+        </a>
       </div>
       <div className="main-containar">
         {!showResult ? (
