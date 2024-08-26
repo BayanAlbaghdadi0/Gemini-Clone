@@ -90,7 +90,7 @@ export const Main = () => {
               <p>
                 <span>Helo, Dev!</span>
               </p>
-              <p>How i can hekp you ?</p>
+              <p>How i can help you ?</p>
             </div>
             <div className="cards">
               <div className="card">

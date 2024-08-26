@@ -13,7 +13,7 @@ import {
   setInput,
 } from "../../features/chatSlice";
 export const Sidbar = () => {
-  const [extended, setExtended] = useState(false);
+  const [extended, setExtended] = useState(true);
   const dispatch = useDispatch();
 
   const { prevPrompts, recentPrompt } = useSelector((state) => state.chat);
